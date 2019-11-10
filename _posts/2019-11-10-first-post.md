@@ -2,6 +2,7 @@
 layout: page
 title: First Post
 subtitle: Hi Guys ! 
+comments: true
 ---
 
 Hey everyone ! this is our first post ever, and we are so excited to get
