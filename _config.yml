@@ -117,6 +117,11 @@ url-pretty: "OSC Palestine"  # eg. "deanattali.com/beautiful-jekyll"
 # To use Facebook Comments, fill in a Facebook App ID
 fb_comment_id: "752115968548704"
 
+collections:
+  staff_members:
+    output: true
+  gallery:
+    output: false
 # To use Staticman comments, fill in repository, branch, and endpoint
 staticman:
   repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
