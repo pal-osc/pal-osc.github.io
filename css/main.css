@@ -914,3 +914,7 @@ position: relative;
 	margin-right:auto;
 	text-align: center;
 }
+
+#carouselMembers .carousel-inner{
+  height:100%;
+ }
