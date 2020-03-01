@@ -4,4 +4,7 @@ name: Discussion With Free Software Society
 layout: page
 ---
 
-# TODO
+# About The Disucssion
+## Topics Dicussed
+## Gallery
+![image](/img/gallery/2020-02-29-ahmad-dajani.jpg)
