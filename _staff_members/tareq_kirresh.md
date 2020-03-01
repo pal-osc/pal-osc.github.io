@@ -1,6 +1,6 @@
 ---
 name: Tareq Kirresh
 position: Proffesional Outreach
-image: /img/tareq-kirresh.jpg
+profileImage: /img/tareq-kirresh.jpg
+description: Tareq May or May not be batman
 ---
-Tareq May or May not be batman

@@ -843,30 +843,53 @@ pre {
 	height:80vh;
 	min-height:400px;
 }
-.member-panel .panel-body .member-description{
-	top:0px;
-	left:30px;
-	right:30px;
-	background-color:rgba(102, 102, 102, 0.7);
-	color:white;
-	padding:15px;
-}
 
 .member-panel .panel-body .member-name{
 	position:absolute;
 	top:5px;
-	left:30px;
-	right:30px;
+	left:15px;
+	right:15px;
 	background-color:rgba(102, 102, 102, 0.7);
 	color:white;
 	padding:15px;
+	opacity:1;
 }
 
+
+.member-panel .panel-body .member-description{
+  position: absolute;
+	top:15px;
+	left:15px;
+	right:15px;
+	bottom:15px;
+	background-color:rgba(102, 102, 102, 0.7);
+	color:white;
+	padding:15px;
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.member-panel .panel-body:hover .member-name{
+	opacity:0;
+}
+
+.member-panel .panel-body:hover .member-description{
+	opacity:1;
+}
+
+.member-panel .panel-body:hover img{
+box-shadow: 3px 3px 1px grey;
+}
 .member-panel .panel-body img{
+
 	height:100%;
 	width:100%;
 	max-width:none;
 	
+}
+
+.member-panel{
+position: relative;
 }
 
 .remove-left{
@@ -881,4 +904,13 @@ pre {
 
 .member-name a{
  color:white;
+}
+
+.meet-the-team{
+	width:100%;
+}	
+.centered-title{
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
 }
