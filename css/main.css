@@ -917,18 +917,25 @@ position: relative;
 
 #carouselMembers .carousel-inner{
   height:100%;
- }
+}
 
- #carouselMemebersMobile{
+#carouselMembersMobile{
 	display:none;
- }
+}
+
  
+@media only screen and (max-width: 990px) {
+	#carouselMembers{
+		display:none;
+	}
+ 
+	#carouselMembersMobile{
+		display:block;
+	}
+
+}
 @media only screen and (max-width: 500px) {
- #carouselMembers{
-	display:none;
- }
- 
- #carouselMemebersMobile{
-	display:block;
- }
+	.carousel-caption-bottom p{
+		display:none;
+	}
 }
