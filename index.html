@@ -66,6 +66,38 @@ use-site-title: false
   </div>
   </div>
   
+  
+  <div id="carouselMembersMobile" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+	  {% for staff_member in site.staff_members %}
+		<div class="item {% if forloop.first %} active {% endif %}">
+		<div class="staff-member col-sm-12">
+			<div class="panel member-panel" >
+				<a href="{{ staff_member.url }}">
+				<div class="panel-body">
+				  <h4 class="member-name"> 
+						{{ staff_member.name }} - {{ staff_member.position }}
+					</h4>	
+					<div class="member-description">
+						{{ staff_member.description }}
+					</div>
+					<img src="{{ staff_member.profileImage }}" alt="{{ staff_member.name }}">			
+				</div>
+					</a>
+				</div>
+			</div>
+			</div>
+		 {% endfor %}
+	</div>
+	   <div class="left carousel-control" href="#carouselMembersMobile" data-slide="prev">
+    <i class="fa fa-chevron-left"></i>
+    <div class="sr-only">Previous</div>
+  </div>
+  <div class="right carousel-control" href="#carouselMembersMobile" data-slide="next">
+     <i class="fa fa-chevron-right"></i>
+    <div class="sr-only">Next</div>
+  </div>
+  </div>
  
 </div>
 

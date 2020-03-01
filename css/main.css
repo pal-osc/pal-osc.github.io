@@ -918,3 +918,17 @@ position: relative;
 #carouselMembers .carousel-inner{
   height:100%;
  }
+
+ #carouselMemebersMobile{
+	display:none;
+ }
+ 
+@media only screen and (max-width: 500px) {
+ #carouselMembers{
+	display:none;
+ }
+ 
+ #carouselMemebersMobile{
+	display:block;
+ }
+}
